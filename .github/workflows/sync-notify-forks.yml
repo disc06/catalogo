@@ -12,6 +12,9 @@ jobs:
     if: github.event.repository.fork == false
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Disparar sync nos forks
         env:
           GH_TOKEN: ${{ secrets.FORK_DISPATCH_TOKEN }}
