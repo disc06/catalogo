@@ -429,7 +429,7 @@ function variantKey(produtoId: string, varianteId: string) {
 
 function buildOrderItem(product: Product, variant: ProductVariant): OrderItem {
   return {
-  : product.id,
+    produtoId: product.id,
     varianteId: variant.id,
     nomeProduto: product.nome,
     tamanho: variant.tamanho,
@@ -720,7 +720,7 @@ async function main() {
     for (const w of writes) {
       const abs = path.join(DATA_DEV, w.path);
       await fs.mkdir(path.dirname(abs), { recursive: true });
-      await fs.writeFile(abs, `${JSON.ll, 2)}\n`, "utf8");
+      await fs.writeFile(abs, `${JSON.stringify(w.data, null, 2)}\n`, "utf8");
     }
     console.log(`  índices pedidos: ${state.entries.length} entradas`);
   }
