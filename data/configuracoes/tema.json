@@ -1,11 +1,11 @@
 {
   "tema": {
     "raio": 8,
-    "larguraContainer": "1120px",
+    "larguraContainer": "960px",
     "corWhatsapp": "#067F32",
     "corInstagram": "#E1306C",
-    "fonteCorpo": "poppins",
-    "fonteDisplay": "bebas-neue"
+    "fonteCorpo": "system",
+    "fonteDisplay": "system"
   },
   "seo": {
     "titleTemplate": "%s · {nomeLoja}",
