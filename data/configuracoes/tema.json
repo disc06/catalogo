@@ -1,6 +1,6 @@
 {
   "tema": {
-    "raio": 0,
+    "raio": 32,
     "larguraContainer": "1280px",
     "corWhatsapp": "#067F32",
     "corInstagram": "#E1306C",
