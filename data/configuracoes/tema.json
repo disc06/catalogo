@@ -4,8 +4,8 @@
     "larguraContainer": "1280px",
     "corWhatsapp": "#067F32",
     "corInstagram": "#E1306C",
-    "fonteCorpo": "system",
-    "fonteDisplay": "system"
+    "fonteCorpo": "poppins",
+    "fonteDisplay": "bebas-neue"
   },
   "seo": {
     "titleTemplate": "%s · {nomeLoja}",
